@@ -1,0 +1,160 @@
+*
+{
+	margin: 0;
+	padding:0;
+}
+
+.row
+{
+	max-width: 700px;
+	margin: 0 auto;
+}
+body
+{
+
+	font-family: Times New Roman;
+}
+.text
+{
+	position: absolute;
+	width: 600px;
+	top:50%;
+	right:150%
+	transform:  translate(-50%,-50%);
+}
+header
+{
+	background-image:url(../css/2014-02-28-DeannaMcCasland.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+h1
+{
+	color: white;
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 5%;
+}
+.main-nav li
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 130%;
+	font-weight: bold;
+}
+.main-nav li a:hover
+{
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;
+	transition: all 0.5s ease-in;
+	padding: 20px;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 250%;
+	font-weight: 800;
+	color: #2C2C2C;
+	text-align: center;
+	
+}
+h3{
+	text-align: center;
+}
+p{
+	font-family: 'Raleway', serif;
+	font-size: 140%;
+	font-weight: 700;
+	color: #2C2C2C;
+	text-align: center;
+	line-height: 180%;
+	font-weight: 300;
+}
+img{
+ text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.left-col{
+	width: 45%;
+	float: right;
+	margin: 5% 0 5% 5%;
+	margin-right: 10%
+}
+.sidebar{
+	width: 28.333333%;
+	float: :left;
+	margin:4%;
+}
+.meal-showcase{
+	 list-style: none;
+	 width: 100%;
+}
+.meal-showcase li{
+
+	display: block;
+	width: 25%;
+	float: left;
+}
+.meal-photo{
+	width: 100%;
+	margin:0;
+	overflow: hidden;
+}
+.meal-photo img{
+	width: 150%;
+	height: auto;
+	display: block;
+	transform: scale(1.15);
+	transition: all 0.5s;
+	padding: 10%;
+
+	
+}
+.meal-photo img: hover
+{
+	transform: scale(1.03);
+}
+.meal{
+	margin-bottom: 60%;
+}
+.contact p{
+padding-top: 1.5%;
+text-align: center;
+letter-spacing: 5px;
+}
+.contact{
+	color: #2C2C2C;
+	padding-bottom: 4%;
+
+}
+.break{
+	display: none;
+}
+.clearfix{
+	clear: both;
+	height: 3%;
+}
+.parallax{
+	background: url(css/1234567.jpg);
+}
+.parallax-inner{
+	padding-top: 17%;
+}
+footer.second {
+	background-color: #2C2C2C;
+}
+footer.second p{
+	color: #FFF;
+	text-align: center;
+	padding: 2%;
+}
